@@ -1,0 +1,211 @@
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit", sans-serif;
+  margin-bottom: 100px;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column ;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 30px;
+  width: 750px;
+
+}
+
+.image {
+  margin: 35px 35px 15px 35px;
+}
+
+.recipe-image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.header {
+  line-height: 10px;;
+  margin-left: 35px;
+  margin-right: 35px;
+  max-width: 700px;
+}
+
+.title {
+  font-family: young serif, arial;
+  font-size: 43px;
+  color:  black;
+
+}
+
+.intro {
+  font-size: 16px;
+  line-height: 30px;
+  color: hsl(24, 5%, 18%);
+}
+
+.preparation-time-container {
+  background-color: hsl(330, 100%, 98%);
+  line-height: 10px;;
+  margin-left: 35px;
+  margin-right: 35px;
+  max-width: 700px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+
+}
+
+.preparation-time-text{
+ padding: 12px;
+}
+
+.pt-subtitle {
+  font-size: 20px;
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+  margin-left: 18px;
+}
+
+.bullet-list {
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  padding-left: 40px;
+
+}
+
+.bold-t {
+  color:hsl(24, 5%, 18%);
+  font-weight: bold;
+}
+
+.li-pt::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.li-pt,
+.li-i {
+  padding-left: 18px;
+  line-height: 35px;
+}
+
+.ingredients {
+  margin-right: 35px;
+  max-width: 700px;
+  margin-bottom: 15px;
+}
+
+.i-subtitle {
+  color: hsl(14, 45%, 36%);
+  font-size: 28px;
+  line-height: 10px;;
+  margin-left: 35px;
+  margin-right: 35px;
+  max-width: 700px;
+  font-family: young serif, arial;
+}
+
+.bullet-list-i {
+font-size: 16px;
+color: hsl(30, 10%, 34%);
+margin-left: 14px;
+padding-left: 45px;
+}
+
+.li-i::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid  hsl(30, 18%, 87%);
+  width: 680px;
+  margin-top: 0px;
+
+}
+
+.instructions {
+  margin-right: 35px;
+  max-width: 700px;
+  margin-bottom: 15px;
+}
+
+.in-subtitle {
+  color: hsl(14, 45%, 36%);
+  font-size: 28px;
+  line-height: 10px;;
+  margin-left: 35px;
+  margin-right: 35px;
+  max-width: 700px;
+  font-family: young serif, arial;
+}
+
+.number-list {
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  margin-left: 14px;
+  padding-left: 45px;
+}
+
+.li-in {
+  padding-left: 18px ;
+  line-height: 28px;
+}
+
+.li-in::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+
+}
+
+.nutrition {
+  margin-right: 35px;
+  max-width: 700px;
+  margin-bottom: 25px;
+}
+
+.n-subtitle {
+  color: hsl(14, 45%, 36%);
+  font-size: 28px;
+  margin-left: 35px;
+  max-width: 700px;
+  font-family: young serif, arial;
+}
+
+.n-text {
+  font-size: 16px;
+  line-height: 30px;
+  color: hsl(24, 5%, 18%);
+  margin-left: 35px;
+}
+
+.n-item {
+  display: grid;
+  grid-template-columns: 355px 380px;
+  align-content:space-evenly;
+  margin-bottom: 5px;;
+  margin-left: 16px;
+}
+
+.n-hr {
+  border: none;
+  border-top: 0px solid  hsl(30, 18%, 87%);
+  width: 680px;
+  margin-left: 35px;
+}
+
+.item {
+  margin-left: 50px;
+  font-size: 16px;
+  color: hsl(24, 5%, 18%);
+}
+
+.quantity {
+  font-size: 16px;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
